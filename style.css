@@ -207,8 +207,26 @@ width:50%;
 	column-count:2;
 	}
 }
+@media screen and (max-width: 768px) {
+
+.langue{
+
+float:none !important;
+width:100% !important;
+margin-bottom:20px;
+}
+
+.hobbie{
+
+width:100% !important;
+}
+
+}
 
 @media all and (max-width: 601px) {
+
+
+
 	#cv {
 		width: 95%;
 		margin: 10px auto;

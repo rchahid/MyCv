@@ -1,0 +1,95 @@
+@media all and (min-width: 602px) and (max-width: 800px) {
+	#Entete {
+		display: none;
+	}
+	
+/*	.keySkills {
+	-moz-column-count:2;
+	-webkit-column-count:2;
+	column-count:2;
+	}*/
+}
+@media screen and (max-width: 768px) {
+
+.langue{
+
+float:none !important;
+width:100% !important;
+margin-bottom:20px;
+}
+
+.hobbie{
+
+width:100% !important;
+}
+
+}
+
+@media all and (max-width: 601px) {
+
+
+
+	#wrapper {
+		width: 95%;
+		margin: 10px auto;
+		min-width: 280px;
+	}
+	
+	#Entete {
+		display: none;
+	}
+	
+	#header, #detailcontact {
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+	
+	.titre, .contenu {
+		float: none;
+		width: 100%;
+	}
+	
+	.titre {
+		margin-left: -2px;
+		font-size: 1.25em;
+	}
+	
+	/*.keySkills {
+		-moz-column-count:2;
+		-webkit-column-count:2;
+		column-count:2;
+	}*/
+}
+
+@media all and (max-width: 480px) {
+	.Details {
+		padding: 15px 15px;
+	}
+	
+	section {
+		padding: 15px 0 0;
+	}
+	
+	#presentation {
+		padding: 0 25px;
+	}
+
+	/*
+	.keySkills {
+	-moz-column-count:1;
+	-webkit-column-count:1;
+	column-count:1;
+	}*/
+	
+	#header h1 {
+		line-height: .8em;
+		margin-bottom: 4px;
+	}
+}
+
+@media print {
+    #wrapper {
+        width: 100%;
+    }
+}
